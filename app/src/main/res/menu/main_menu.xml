@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/graph"
+        android:icon="@drawable/graph_diagram"
+        android:title="Graph"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/all_users"
+        android:icon="@drawable/ic_magnifying_glass"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
